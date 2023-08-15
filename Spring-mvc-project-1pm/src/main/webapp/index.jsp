@@ -9,7 +9,7 @@
 </head>
 <body>
 
-	<a href=openInsert><button>Insert</button></a> &nbsp; &nbsp;
-	<a href=""><button>Display</button></a>
+	<a href="openInsert"><button>Insert</button></a> &nbsp;&nbsp;
+	<a href="getAllUser"><button>Display</button></a>
 </body>
 </html>

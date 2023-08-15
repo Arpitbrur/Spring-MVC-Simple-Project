@@ -11,6 +11,8 @@ public class User {
 	private String userName;
 	private String userEmail;
 	private long userPhone;
+	
+	
 	public int getUserId() {
 		return userId;
 	}

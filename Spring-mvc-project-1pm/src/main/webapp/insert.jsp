@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+    pageEncoding="ISO-8859-1" isELIgnored="false"%>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %> 
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>  
 <!DOCTYPE html>
@@ -9,6 +9,8 @@
 <title>Insert title here</title>
 </head>
 <body>
+	
+	<h1 style='color: green'><c:out value="${message}"></c:out></h1>
 	<form:form action="saveUser" method="post" modelAttribute="userObject">
 		<form:label path="userId">UserID</form:label>
 		<form:input path="userId" placeholder ="Enter your Id"/><br><br>
